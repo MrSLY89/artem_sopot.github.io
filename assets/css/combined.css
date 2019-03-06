@@ -5698,7 +5698,7 @@ b, strong {
     background-color: transparent
 }
 
-.nk-navbar, .nk-navbar.nk-navbar-solid {
+.nk-navbar.nk-navbar-solid {
     background-color: #fff;
     height: 75px;
     padding: 15px 0
@@ -5736,8 +5736,8 @@ b, strong {
 }
 
 .nk-navbar .nk-nav-table > .nk-nav-row-center > * {
-    display: table-cell;
-    vertical-align: middle
+    display: table-cell
+
 }
 .nk-nav-logo {
     width: 250px;
@@ -5999,14 +5999,15 @@ b, strong {
 }
 
 .nk-navbar-full .nk-nav-header .nk-nav-logo {
-    float: left
+    float: left;
+    font-size: 28px;
+    color: #454545;
 }
 
 .nk-navbar-full .nk-nav-header .nk-nav-close {
     cursor: pointer;
-    float: right;
     padding: 6px 25px;
-    color: #d8d8d8;
+    color: #1d1d1d;
     z-index: 1
 }
 
@@ -6046,7 +6047,7 @@ b, strong {
     text-transform: none;
     font-weight: 700;
     padding: 3px 80px;
-    color: #d8d8d8
+    color: #000000d9
 }
 
 .nk-navbar-full .nk-nav .dropdown > li.active > a, .nk-navbar-full .nk-nav .dropdown > li > a:hover, .nk-navbar-full .nk-nav > li.active > a, .nk-navbar-full .nk-nav > li > a:hover {
@@ -6146,7 +6147,7 @@ b, strong {
 .nk-navbar-full .nk-nav-social > ul li > a {
     display: block;
     font-size: 1.13rem;
-    color: #d8d8d8;
+    color: #1d1d1d;
     margin: 3px 6px
 }
 
