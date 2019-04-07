@@ -71,7 +71,7 @@ optgroup {
 }
 
 button, input {
-    overflow: visible
+    overflow: visible;
 }
 
 button, select {
@@ -1375,19 +1375,29 @@ code {
     background-image: none;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: .25rem
+    border-radius: .25rem;
 }
 
 .form-control::-ms-expand {
     background-color: transparent;
-    border: 0
+    border: 0;
 }
 
 .form-control:focus {
     color: #55595c;
     background-color: #fff;
-    border-color: #66afe9;
+    border-bottom: 2px solid #66afe9;
     outline: 0
+}
+.form-control:focus::placeholder {
+    transition: all .3s ease;
+    font-size: 12px;
+    -moz-transform: translate(0px, -10px);
+    -webkit-transform: translate(0px, -10px);
+    -o-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+
 }
 
 .form-control::-webkit-input-placeholder {
@@ -6371,7 +6381,7 @@ b, strong {
 }
 
 .nk-btn.active, .nk-btn.hover, .nk-btn:active, .nk-btn:focus, .nk-btn:hover {
-    background-color: #444
+    background-color: #66afe9
 }
 
 .nk-btn-xs {
@@ -7195,6 +7205,7 @@ blockquote.nk-blockquote-style-1 cite {
     border-radius: 0;
     border: none;
 }
+.form-control
 .form-control{
     border-bottom: 2px solid
 }
