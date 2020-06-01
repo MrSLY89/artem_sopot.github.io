@@ -1378,11 +1378,6 @@ code {
     border-radius: .25rem;
 }
 
-.form-control::-ms-expand {
-    background-color: transparent;
-    border: 0;
-}
-
 .form-control:focus {
     color: #55595c;
     background-color: #fff;
@@ -7195,17 +7190,14 @@ blockquote.nk-blockquote-style-1 cite {
     color: #858585;
     opacity: 1
 }
-
 .form-control {
     padding: 16px 22px;
     font-size: .95rem;
     font-weight: 400;
     line-height: 1.2;
-    background-color: transparent;
     border-radius: 0;
     border: none;
 }
-.form-control
 .form-control{
     border-bottom: 2px solid
 }

@@ -1,0 +1,10 @@
+{
+  "name": "sly",
+  "version": "1.0.0",
+  "dependencies": {
+    "yuicompressor": "^2.4.8"
+  },
+  "scripts": {
+    "start": "minify.js"
+  }
+}
